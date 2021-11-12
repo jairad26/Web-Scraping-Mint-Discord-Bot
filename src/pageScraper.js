@@ -72,7 +72,7 @@ const scraperObject = {
             }
             
             console.log(hashBond);
-            const channel = client.channels.cache.find(c => c.name === 'general');
+            const channel = client.channels.cache.find(c => c.name === 'bot-channel');
             for(var i in hashBond) {
                 if(parseFloat(hashBond[i][1].slice(0,-1)) < Math.trunc(fiveDayAPRPercent)) {
                     delete hashBond[i];

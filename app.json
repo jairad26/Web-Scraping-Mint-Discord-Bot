@@ -1,0 +1,8 @@
+{
+    "name": "Mint Scraper Bot",
+    "description": "A discord bot that scrapes mints from Wonderland",
+    "repository": "https://github.com/jairad26/Web-Scraping-Mint-Discord-Bot.git",
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+    "keywords": ["node", "express", "heroku"],
+    "image": "heroku/nodejs"
+  }

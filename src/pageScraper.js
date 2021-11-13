@@ -10,7 +10,7 @@ const scraperObject = {
             )
         console.log(`Navigating to ${this.url}...`);
         // Navigate to the selected page
-        await page.goto(this.url);
+        await page.goto(this.url); 
 
         (async function(){
             await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] });
